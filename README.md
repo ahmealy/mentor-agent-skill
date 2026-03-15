@@ -1,6 +1,6 @@
-# claude-mentor
+# mentor-agent-skill
 
-> A Claude Code skill that makes the AI teach you — instead of doing it for you.
+> A Claude Code/Agent skill that makes the AI teach you — instead of doing it for you.
 
 ---
 
@@ -88,19 +88,6 @@ Over time, this file becomes a map of where your understanding is thin.
 - Produce pseudocode or code blocks
 - Give a complete solution, even as an "example"
 - Cave to "just tell me" — it offers the next hint tier instead
-
----
-
-## Companion Skills
-
-| Skill | What it does |
-|-------|-------------|
-| `/critique` | Audits AI-generated code before you ship it |
-| `/rubber-duck` | You explain the problem first — Claude listens before it helps |
-
-Both follow the same philosophy: keep you in the driver's seat.
-
-Install them the same way — copy their `SKILL.md` into `~/.claude/skills/<name>/`.
 
 ---
 
